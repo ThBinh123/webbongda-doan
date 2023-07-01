@@ -1,0 +1,17 @@
+.signup a {
+    background: #4b4b4b;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 5px;
+
+
+}
+
+.up:hover {
+    color: #f1c40f;
+}
+
+.g-2 {
+    margin-top: 180px;
+    padding: 50px;
+}

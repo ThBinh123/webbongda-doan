@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    font-family: serif;
+    background: linear-gradient( #4b4b4b,#353b48,#4b4b4b);
+}
+.Shop img{
+    width: 100%;
+}
+.Shop1 .logo{
+   width: 8%;
+}
+.Shop{
+    /* background:#4b4b4b; */
+    background: linear-gradient( #4b4b4b,#353b48,#4b4b4b);
+    width: 100%;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1080;
+    overflow: hidden;
+    height: 180px;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-bottom: 1px solid #f39c12;
+}
+.Shop p{
+    padding-top: 10px;
+}
+.Shop1{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding-bottom: 10px;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+.Shop1 .search{
+    width: 60%;
+    text-align: center;
+    
+}
+.Shop1 .search input{
+    width: 80%;
+    border: none;
+    padding: 4px;
+}
+.Shop1 .search button{
+    border: none;
+    padding: 4px;
+    background-color: #fff;
+    width: 10%;
+}
+.shop1 .fashop{
+    margin-left: 10px;
+}
+
+.Shop .shop_pt {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+.Shop .shop_pt:hover{
+    color: #f39c12;
+}
+.length {
+    color: #e84118;
+    font-size: 20px;
+    
+}
+.Shop2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.fashop .shop_pt{
+    margin-left: 30px;
+    font-size: 30px;
+}
+.Shop .since{
+    font-size: 10px;
+}

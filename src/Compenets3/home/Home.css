@@ -1,0 +1,219 @@
+
+.home {
+    text-align: center;
+    margin-top: 180px;
+    justify-self: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient( #4b4b4b,#353b48,#4b4b4b);
+
+}
+
+.home h1 {
+    font-size: 20px;
+    color: #f39c12;
+    margin-top: 50px;
+    margin-bottom: 3%;
+    font-weight: bold;
+}
+
+.home .box-home {
+    width: 100%;
+
+}
+
+.home .box-home .slide {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.products-hot {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.products-hot .swiper-button-next {
+    color: #f39c12;
+}
+
+.products-hot .swiper-button-prev {
+    color: #f39c12;
+}
+
+.contain {
+    display: flex;
+}
+
+.contain .box {
+    width: calc(80% / 3);
+    position: relative;
+    
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    border-radius: 10px;
+
+    
+}
+.contain .box .linkproduct{
+    position: absolute;
+    top: -30%;
+    left: 70%;
+    color: black;
+    font-size: 20px;
+    transition: 1s;
+
+}
+.contain .box .namecontain{
+    position: absolute;
+    left: -30%;
+    top: 50%;
+    transition: 1s;
+}
+.contain .box:hover .linkproduct{
+    top: 30%;
+    color: #f39c12;
+    font-weight: bold;
+    
+}
+.contain .box:hover{
+    border: 1px solid #f39c12;
+}
+.contain .box:hover .images{
+    opacity: 0.1;
+    transition: 1s;
+    transform: scale(1.3);
+   
+}
+.contain .box:hover .namecontain{
+    left: 30%;
+    color: #f39c12;
+    font-weight: bold;
+    transition: 1s;
+    padding: 5px;
+
+}
+.contain .box img {
+    width: 50%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.main {
+    display: flex;
+}
+
+.main .box-main {
+    width: calc(100% / 4);
+    position: relative;
+    height: 200px;
+    overflow: hidden;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.main .box-main .image_main {
+    width: 100%;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0%;
+    transition: 1s;
+}
+.main .box-main:hover .image_main{
+    left: -30%;
+    border: 1px solid #f39c12;
+}
+.main .box-main .text_main{
+    position: absolute;
+    top:40%;
+    right: -100%;
+    color: #f39c12;
+    font-size: 20px;
+    width: 25%;
+    transition: 1s;
+}
+.main .box-main:hover .text_main{
+    right: 4%;
+}
+.main .box-main .linkmain{
+    position: absolute;
+    top:10%;
+    right: -100%;
+    font-size: 20px;
+    color: #f39c12;
+    transition: 1s;
+}
+.main .box-main .linkmain:hover{
+   color:#e74c3c;
+}
+.main .box-main:hover .linkmain{
+    right: 10%;
+    
+}
+@media screen and (max-width : 800px) {
+    .contain {
+        display: block;
+    }
+    
+    .contain .box {
+        width:100%;
+    }
+    
+    .contain .box .images {
+        width: 50%;
+        margin-bottom: 40px;
+    }
+    .main{
+        display: block;
+    }
+    .main .box-main {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px;
+    }
+    .main .box-main .image_main {
+
+    }
+}
+
+/* img::before {
+    line-height: 20px;
+    size: 44px;
+   size: 44px;
+   top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border: rgba(0, 0, 0, 0.1);
+    color-button: rgba(0, 0, 0, 0.3);
+    color-text: rgba(0, 0, 0, 0.75);
+    color-text-dimmed: rgba(0, 0, 0, 0.3);
+    color-background: #f3f3f3;
+    color-background-highlight: rgba(0, 0, 0, 0.05);
+    color-background-emphasis: rgba(255, 255, 255, 0.4);
+    shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+} */
+
+img:hover::before {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: -10%;
+    width: 120%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    content: '';
+    -webkit-transition: -webkit-transform .6s;
+    transition: transform .8s;
+    -webkit-transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 45deg) translate3d(0, 100%, 0);
+    transform: scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, 135deg) translate3d(0, 100%, 0);
+    opacity: 0;
+    filter: alpha(opacity=0);
+    visibility: hidden;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}

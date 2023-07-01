@@ -1,0 +1,74 @@
+.footer{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    text-align: center;
+    padding: 30px 30px;
+    color: #fff;
+    width: 100%;
+    background: linear-gradient( #4b4b4b,#353b48,#4b4b4b);
+}
+.footer h3{
+    font-size: 20px;
+    opacity: 0.9;
+    color: #f39c12;
+    font-weight: bold;
+}
+.footer p{
+    opacity: 0.7;
+}
+.footer .box-footer{
+    width: calc(100% / 3);
+}
+
+.footer .box-footer p{
+    font-size: 12px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.footer .box-footer .internet{
+    font-size: 30px;
+}
+.footer .box-footer .internet a{
+    margin-left: 3%;
+}
+.footer .box-footer img{
+    width: 80%;
+    padding: 10px;
+}
+.internet a{
+    font-size: 30px;
+}
+.BCT{
+    display: flex;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+}
+.footer .box-footer .shopee img{
+    width: 50%;
+}
+@media screen and (max-width : 800px ){
+    .footer .box-footer{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .footer{
+        display: block;
+    }
+    .footer .box-footer .shopee img{
+        width: 30%;
+    }
+    .footer .box-footer p{
+        font-size: 20px;
+    }
+    .footer h3{
+        font-size: 30px;
+
+    }
+    .BCT{
+        justify-content: center;
+    }
+    
+}

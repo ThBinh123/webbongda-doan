@@ -1,0 +1,96 @@
+.carts .Carts_Box .btn1 {
+    width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 10px solid #353b48;
+}
+.carts .Carts_Box .btn2{
+    width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 10px solid #353b48;
+}
+.carts .Carts_Box .btn{
+    justify-content: center;
+    width: 10%;
+    border: 1px solid #353b48;
+}
+
+.carts .Carts_Box .btn .qty{
+   padding: 10px;
+
+   
+}
+.carts .Carts_Box .font_name{
+    width: 20%;
+    font-size: 15px;
+}
+.carts .Carts_Box .prices{
+    width: 10%;
+    font-size: 15px;
+    text-align: center;
+}
+.carts .Carts_Box .prices .prices2{
+    color:#192a56;
+}
+.carts .Carts_Box .image-carts{
+    width: 15%;
+    border-radius: 10px;
+}
+.cartplus{
+    background: linear-gradient(#4b4b4b, #353b48, #4b4b4b);
+
+}
+.carts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+
+}
+.carts .Carts_Box{
+    background-color: #fff;
+    width: 80%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px solid #f0932b;
+    overflow: hidden;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.Delete {
+    font-size: 30px;
+    width: 5%;
+    padding-bottom: 20px;
+}
+.Delete:hover{
+    color: #c23616;
+}
+.total .buy {
+    padding: 5px 5px;
+    border: none;
+    width: 10%;
+    background: #e74c3c;
+    border: 3px solid #e74c3c;
+}
+.buy:hover{
+    border: 3px solid #f39c12;
+}
+.prices_sum{
+    text-align: center;
+}
+.total{
+    margin-left: 73%;
+    color: #fff;
+}
+h2{
+    padding-top: 200px;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 20px;
+}
